@@ -1,0 +1,12 @@
+Source: marrow-interface
+Maintainer: Adam Jacob Muller <adam@isprime.com>
+Section: python
+Priority: optional
+Build-Depends: python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3), debhelper (>= 7.4.3)
+Standards-Version: 3.9.1
+
+Package: python-marrow-interface
+Architecture: amd64
+Depends: 
+X-Python-Version: 2.7
+Description: An anti-Pythonic declarative strict interface definition and validation system.
